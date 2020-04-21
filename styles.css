@@ -214,10 +214,10 @@ body{
         position: absolute;
         right: -30px;
         top: 10px;
-        /* display: none; */
+        display: none;
     }
     .error1{
-        /* display: none; */
+        display: none;
     }
 
 }

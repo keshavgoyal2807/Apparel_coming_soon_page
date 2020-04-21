@@ -5,8 +5,15 @@ function validateEmail(email) {
 const btn = document.getElementById('btn');
 const ip = document.getElementsByClassName('ip');
 btn.addEventListener('click',()=>{
-    if(!validateEmail(ip.value))
+    if(!validateEmail(ip[0].value))
     {
-        
+        console.log(document.getElementsByClassName('error')[0].style)
+        document.getElementsByClassName('error')[0].style.display="block"
+        document.getElementsByClassName('error1')[0].style.display="block"
+    }
+    else
+    {
+        document.getElementsByClassName('error')[0].style.display="none"
+        document.getElementsByClassName('error1')[0].style.display="none"
     }
 })
