@@ -108,6 +108,17 @@ body{
     .limage{
         display: none;
     }
+    .error{
+        width:30px;
+        height: 30px;
+        position: absolute;
+        right: -30px;
+        top: 10px;
+        display: none;
+    }
+    .error1{
+        display: none;
+    }
 }
 
 @media screen and (max-width:600px){
@@ -183,7 +194,7 @@ body{
     .input1 button{
         background: linear-gradient(135deg,hsl(0, 80%, 86%),hsl(0, 74%, 74%));
         /* background-image: url(./images/icon-arrow.svg); */
-        width:15%;
+        width:20%;
         height: 50px;
         outline: none;
         position: absolute;
@@ -196,6 +207,17 @@ body{
     
     .input1 button img{
         margin: 0 auto;
+    }
+    .error{
+        width:30px;
+        height: 30px;
+        position: absolute;
+        right: -30px;
+        top: 10px;
+        /* display: none; */
+    }
+    .error1{
+        /* display: none; */
     }
 
 }
