@@ -18,6 +18,7 @@ body{
         grid-row-end: 3;
         grid-column-start: 1;
         grid-column-end: 2;
+        background: linear-gradient(135deg,hsl(0, 80%, 86%),hsl(0, 74%, 74%));
         background: linear-gradient(135deg,hsl(0, 0%, 100%),hsl(0, 100%, 98%));
         background-image: url('./images/bg-pattern-desktop.svg');
         background-repeat: no-repeat;
@@ -149,6 +150,7 @@ body{
     }
     .content{
         text-align: center;
+        background: linear-gradient(135deg,hsl(0, 0%, 100%),hsl(0, 100%, 98%));
     }
     .first{
         font-size: 50px;
